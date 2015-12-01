@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TV-TVAnimationRadar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TVAnimationRadar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0ABED8A21C08FFAC00B466AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABED8C01C08FFD400B466AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

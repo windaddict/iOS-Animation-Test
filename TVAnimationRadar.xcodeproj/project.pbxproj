@@ -13,6 +13,11 @@
 		0ABED8B11C08FFAC00B466AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABED8AF1C08FFAC00B466AF /* Main.storyboard */; };
 		0ABED8B31C08FFAC00B466AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABED8B21C08FFAC00B466AF /* Assets.xcassets */; };
 		0ABED8B61C08FFAC00B466AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABED8B41C08FFAC00B466AF /* LaunchScreen.storyboard */; };
+		0ABED8C51C08FFD400B466AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABED8C41C08FFD400B466AF /* main.m */; };
+		0ABED8C81C08FFD400B466AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABED8C71C08FFD400B466AF /* AppDelegate.m */; };
+		0ABED8CB1C08FFD400B466AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABED8CA1C08FFD400B466AF /* ViewController.m */; };
+		0ABED8CE1C08FFD400B466AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABED8CC1C08FFD400B466AF /* Main.storyboard */; };
+		0ABED8D01C08FFD400B466AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABED8CF1C08FFD400B466AF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,26 @@
 		0ABED8B21C08FFAC00B466AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABED8B51C08FFAC00B466AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ABED8B71C08FFAC00B466AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABED8C11C08FFD400B466AF /* TV-TVAnimationRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV-TVAnimationRadar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABED8C41C08FFD400B466AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ABED8C61C08FFD400B466AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ABED8C71C08FFD400B466AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ABED8C91C08FFD400B466AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ABED8CA1C08FFD400B466AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ABED8CD1C08FFD400B466AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ABED8CF1C08FFD400B466AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ABED8D11C08FFD400B466AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0ABED8A01C08FFAC00B466AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABED8BE1C08FFD400B466AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +63,8 @@
 		0ABED89A1C08FFAC00B466AF = {
 			isa = PBXGroup;
 			children = (
-				0ABED8A51C08FFAC00B466AF /* TVAnimationRadar */,
+				0ABED8A51C08FFAC00B466AF /* iOS Target */,
+				0ABED8C21C08FFD400B466AF /* TV Target */,
 				0ABED8A41C08FFAC00B466AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,11 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				0ABED8A31C08FFAC00B466AF /* TVAnimationRadar.app */,
+				0ABED8C11C08FFD400B466AF /* TV-TVAnimationRadar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0ABED8A51C08FFAC00B466AF /* TVAnimationRadar */ = {
+		0ABED8A51C08FFAC00B466AF /* iOS Target */ = {
 			isa = PBXGroup;
 			children = (
 				0ABED8A91C08FFAC00B466AF /* AppDelegate.h */,
@@ -68,6 +91,7 @@
 				0ABED8B71C08FFAC00B466AF /* Info.plist */,
 				0ABED8A61C08FFAC00B466AF /* Supporting Files */,
 			);
+			name = "iOS Target";
 			path = TVAnimationRadar;
 			sourceTree = "<group>";
 		};
@@ -75,6 +99,30 @@
 			isa = PBXGroup;
 			children = (
 				0ABED8A71C08FFAC00B466AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ABED8C21C08FFD400B466AF /* TV Target */ = {
+			isa = PBXGroup;
+			children = (
+				0ABED8C61C08FFD400B466AF /* AppDelegate.h */,
+				0ABED8C71C08FFD400B466AF /* AppDelegate.m */,
+				0ABED8C91C08FFD400B466AF /* ViewController.h */,
+				0ABED8CA1C08FFD400B466AF /* ViewController.m */,
+				0ABED8CC1C08FFD400B466AF /* Main.storyboard */,
+				0ABED8CF1C08FFD400B466AF /* Assets.xcassets */,
+				0ABED8D11C08FFD400B466AF /* Info.plist */,
+				0ABED8C31C08FFD400B466AF /* Supporting Files */,
+			);
+			name = "TV Target";
+			path = "TV-TVAnimationRadar";
+			sourceTree = "<group>";
+		};
+		0ABED8C31C08FFD400B466AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABED8C41C08FFD400B466AF /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,6 +147,23 @@
 			productReference = 0ABED8A31C08FFAC00B466AF /* TVAnimationRadar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0ABED8C01C08FFD400B466AF /* TV-TVAnimationRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABED8D21C08FFD400B466AF /* Build configuration list for PBXNativeTarget "TV-TVAnimationRadar" */;
+			buildPhases = (
+				0ABED8BD1C08FFD400B466AF /* Sources */,
+				0ABED8BE1C08FFD400B466AF /* Frameworks */,
+				0ABED8BF1C08FFD400B466AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV-TVAnimationRadar";
+			productName = "TV-TVAnimationRadar";
+			productReference = 0ABED8C11C08FFD400B466AF /* TV-TVAnimationRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +174,9 @@
 				ORGANIZATIONNAME = "John M. P. Knox";
 				TargetAttributes = {
 					0ABED8A21C08FFAC00B466AF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0ABED8C01C08FFD400B466AF = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -127,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				0ABED8A21C08FFAC00B466AF /* TVAnimationRadar */,
+				0ABED8C01C08FFD400B466AF /* TV-TVAnimationRadar */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +211,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ABED8BF1C08FFD400B466AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABED8D01C08FFD400B466AF /* Assets.xcassets in Resources */,
+				0ABED8CE1C08FFD400B466AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -152,6 +230,16 @@
 				0ABED8AE1C08FFAC00B466AF /* ViewController.m in Sources */,
 				0ABED8AB1C08FFAC00B466AF /* AppDelegate.m in Sources */,
 				0ABED8A81C08FFAC00B466AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABED8BD1C08FFD400B466AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABED8CB1C08FFD400B466AF /* ViewController.m in Sources */,
+				0ABED8C81C08FFD400B466AF /* AppDelegate.m in Sources */,
+				0ABED8C51C08FFD400B466AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +260,14 @@
 				0ABED8B51C08FFAC00B466AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0ABED8CC1C08FFD400B466AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABED8CD1C08FFD400B466AF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,6 +377,36 @@
 			};
 			name = Release;
 		};
+		0ABED8D31C08FFD400B466AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TV-TVAnimationRadar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.movingavg.TV-TVAnimationRadar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		0ABED8D41C08FFD400B466AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TV-TVAnimationRadar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.movingavg.TV-TVAnimationRadar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +426,16 @@
 				0ABED8BC1C08FFAC00B466AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ABED8D21C08FFD400B466AF /* Build configuration list for PBXNativeTarget "TV-TVAnimationRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABED8D31C08FFD400B466AF /* Debug */,
+				0ABED8D41C08FFD400B466AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
